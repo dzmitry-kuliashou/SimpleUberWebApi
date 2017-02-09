@@ -23,6 +23,8 @@ Let me provide some description about this project.
 
 7. Repositories are implemented in SimpleUber.DAL project using EntityFramework6 functionality. Code first conception is realized in this solution.
 
+Simple client application for this service you can find here - https://github.com/dzmitry-kuliashou/SimpleUberClient
+
 Also you can find, that each layer has its own classes for data - DTO on DAL, commands and queries on Command and QueryHandlers layer, service contract on distribution layer. And AutoMapper library is used for converting data objects.
 
 So, you can see, that this solution is very simple and contains just some services. But at the same time it has some features, which allows to scale this solution as much as it needed and simply create very large and complex WebApi services application because of using design patterns, SOLID principles and layer desing architecture.
