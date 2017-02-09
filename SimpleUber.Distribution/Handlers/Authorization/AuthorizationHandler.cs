@@ -24,6 +24,8 @@ namespace SimpleUber.Distribution.Handlers.Authorization
         [AllowAnonymous]
         public string Authorize()
         {
+            //TODO Add some authorization contract and some algorithm for contract validation
+
             var command = new CreateSessionCommand
             {
                 Session = new Session
@@ -35,7 +37,6 @@ namespace SimpleUber.Distribution.Handlers.Authorization
 
             _createSessionCommandHandler.Execute(command);
 
-            //todo return void and set Token to cookies
             return command.Session.Token.ToString();
         }
     }

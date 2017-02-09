@@ -23,7 +23,6 @@ namespace SimpleUber.Distribution.Handlers.AuthorComments
 
         [HttpPost]
         [Route("api/authorcomments/new")]
-        [AllowAnonymous]
         public int CreateNewComment(AuthorComment comment)
         {
             var createAuthorCommentCommand = new CreateAuthorCommentCommand
@@ -37,7 +36,6 @@ namespace SimpleUber.Distribution.Handlers.AuthorComments
 
         [HttpGet]
         [Route("api/authorcomments")]
-        [AllowAnonymous]
         public IEnumerable<AuthorComment> GetAuthorComments()
         {
             var authorComments = _authorCommentsQueryHandler.Execute();
