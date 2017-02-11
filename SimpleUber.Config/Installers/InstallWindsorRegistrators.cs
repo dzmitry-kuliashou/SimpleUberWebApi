@@ -8,6 +8,7 @@ namespace SimpleUber.Config.Installers
     {
         public static void Install(IWindsorContainer container)
         {
+            //I know, that it's a bullshit
             var applicationPhysicalPath = "D:\\Programming\\WebApi\\SimpleUberWebApi\\SimpleUber.Config\\bin\\Debug";
 
             container.Install(
