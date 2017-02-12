@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUber.Errors", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUber.Client", "SimpleUber.Client\SimpleUber.Client.csproj", "{8CA1443F-6B5B-4F80-A52D-47C1BDDF6084}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUber.Tests", "SimpleUber.Tests\SimpleUber.Tests.csproj", "{C0F799EA-CD51-4022-8FE8-84EF7983A309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{8CA1443F-6B5B-4F80-A52D-47C1BDDF6084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CA1443F-6B5B-4F80-A52D-47C1BDDF6084}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CA1443F-6B5B-4F80-A52D-47C1BDDF6084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F799EA-CD51-4022-8FE8-84EF7983A309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F799EA-CD51-4022-8FE8-84EF7983A309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F799EA-CD51-4022-8FE8-84EF7983A309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F799EA-CD51-4022-8FE8-84EF7983A309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

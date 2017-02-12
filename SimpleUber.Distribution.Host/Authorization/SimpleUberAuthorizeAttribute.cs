@@ -20,7 +20,6 @@ namespace SimpleUber.Distribution.Host.Authorization
         protected override bool IsAuthorized(HttpActionContext actionContext)
         {
             IEnumerable<string> tokens;
-            actionContext.Request.Headers.TryGetValues("Token", out tokens);
 
             if (actionContext.Request.Headers.TryGetValues("Token", out tokens) && tokens.Count() == 1)
             {
